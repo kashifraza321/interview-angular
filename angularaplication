@@ -1,0 +1,34 @@
+1. How does Incremental DOM work? Can you compare this to Virtual DOM?
+2. Can you explain the role of NgModule in an Angular application?
+
+3. What are the pros and cons of using NgRx versus Angular services?
+NgRx and Angular services are used for state management and data flow control in Angular applications. Each has its own pros and cons, which we’ll explore below.
+
+NgRx pros:
+
+Predictable state management: NgRx uses the Redux pattern for state management, which provides a predictable and centralized way to manage the state of an application.
+Immutable state: With the help of RxJS, NgRx can create immutable state objects. The immutable state allows developers to track the history of state changes and revert to previous states if necessary.
+Scalability: NgRx can handle large and complex applications with many components and data flows. It can easily handle asynchronous operations such as network requests and side effects.
+NgRx cons:
+
+Learning curve: NgRx has a steeper learning curve compared to Angular services. Developers need to learn the Redux pattern, RxJS, and how to use NgRx libraries and tools.
+Boilerplate code: NgRx requires a lot of boilerplate code to set up the store, actions, reducers, and effects. This can make the codebase larger and harder to maintain.
+Complexity: NgRx can introduce more complexity to an application, especially if the application is small or simple.
+Pros of Angular services:
+
+Simple and familiar: Angular services are a familiar concept in Angular development and are easy to understand and implement.
+Testability: Services can be easily tested in isolation using unit tests. This makes it easier to test complex logic and make changes without affecting other parts of the application.
+Flexibility: Angular services can be used for various tasks such as data retrieval, data manipulation, and business logic. They can be injected into components, directives, and other services, making them flexible and reusable.
+Cons of Angular services:
+
+
+
+4. What is the role of access and refresh tokens? How do you handle them in Angular?
+5. Describe the advantages and disadvantages of using RxJS compared to the usual «fetch»
+6. Explain the SOLID principles based on Angular
+7. How does an Angular application work?
+8. Explain the concept of dependency injection
+
+10. What is the purpose of the async pipe?
+16.Describe the component lifecycle in Angular
+
