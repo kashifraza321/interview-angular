@@ -31,4 +31,5 @@ Cons of Angular services:
 
 10. What is the purpose of the async pipe?
 16.Describe the component lifecycle in Angular
-
+19. JIT vs AOT
+What are the benefits of lazy loading in Angular?
